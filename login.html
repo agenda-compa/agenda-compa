@@ -1,0 +1,9 @@
+{% extends 'base.html' %}{% block content %}<main class="auth">
+  <div class="brand">
+    <div>⚡ <b>Agenda Compa</b></div>
+    <small>Conectá. Participá. Crecé.</small>
+  </div><section class="card"><h1>Ingresar</h1><form method="post"><input name="email" type="email" placeholder="Correo" required><input name="password" type="password" placeholder="Contraseña" required><button>Ingresar</button></form><p>¿No tenés cuenta? <a href="{{url_for('register')}}">Crear cuenta</a></p></section></main><div style="text-align: center;">
+    <b>Diseñado por Vanesa Varela · Damián Ferreyra · 2026</b>
+</div>
+{% endblock %}
+ 						
